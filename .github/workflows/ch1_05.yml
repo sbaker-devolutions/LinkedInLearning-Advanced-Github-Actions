@@ -1,8 +1,5 @@
 name: Deploy to Production
 on:
-  push:
-    paths:
-      - .github/workflows/ch1
   workflow_dispatch:
 
 jobs:
